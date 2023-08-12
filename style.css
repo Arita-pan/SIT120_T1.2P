@@ -1,0 +1,40 @@
+@media (max-width: 1024px) {
+  body { background: pink;}
+}
+@media (min-width: 1024px) and (max-width: 2048px) {
+  body { background: lightblue;}
+}
+  
+li {
+  padding: 8px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  margin-right: 10px;;
+  background-color: lightgrey;
+}
+
+li:hover {
+  background-color: lightcoral;
+}
+
+p {
+  margin: 20px;;
+  text-align: justify;
+}
+
+form {
+  margin: 20px;
+  padding: 20px;
+}
+
+#changecase, #search {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#greeting {
+  text-align: center;
+  color:azure;
+  text-shadow: 0.5cm;
+  font-size: 30px;;
+}

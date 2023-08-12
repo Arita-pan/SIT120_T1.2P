@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>T1.2P</title>
+
+</head>
+
+<body>
+  <img src="https://images.pexels.com/photos/1423600/pexels-photo-1423600.jpeg?cs=srgb&dl=pexels-johannes-plenio-1423600.jpg&fm=jpg" style="width: 100%;height:auto">
+
+  <div style ="margin-left: 30px;">
+    <h2 id="time"></h2>
+    <h3>Frist Day of Trimester 2</h3>
+    <p id ="firstDay"></p>
+    <h3>Converting to UTC standard</h3>
+    <p id="UTC"></p>
+    <h3>Converting to ISO standard</h3>
+    <p id="ISO"></p>
+    <h3>Date in 100 days</h3>
+    <p id="100"></p>
+  </div>
+
+  <h1 style="text-align: center;">Hello World!</h1>
+
+  <div class = "menu">
+      <ul>
+        <li>Hamburger</li>
+        <li>Fried Chicken</li>
+        <li>Pizza</li>
+        <li>Pasta</li>
+      </ul>
+  </div>
+  <div>
+    <h1 style="text-align: center;padding-top: 10px;">The Fast Food</h1>
+    <p id="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id purus tincidunt, luctus mauris at, accumsan dolor. Donec ut faucibus nibh. Aenean quis ultrices magna. Sed sodales nisi sit amet eros fermentum porta id vitae ex. In malesuada in diam eget convallis. Phasellus eu lobortis tortor, a dignissim felis. In non leo sollicitudin, viverra lorem at, venenatis tortor. Nulla facilisi. Morbi ut feugiat mi, vitae porttitor lacus. In at dolor in ipsum lacinia congue. Etiam auctor libero at enim vehicula varius. Maecenas varius euismod metus a ultrices. Pellentesque imperdiet gravida purus, eu gravida nunc egestas sit amet.</p>
+    <div id = "changecase">
+      <button type="button" onclick ="upperCase()">Upper Case</button>
+      <button type="button" onclick ="lowerCase()">Lower Case</button>
+    </div>
+    <div id = "search">
+      <button type="button" onclick ="greeting()"> Greeting </button>
+      <h4 id="greeting"></h4>
+      <button type="button" onclick ="search()"> Search </button>
+      <p id = "match" style="text-align: center;"></p>
+    </div>
+  </div>
+
+  <div>
+    <form>
+      <h3>Calculation</h3>
+      <label>First Value: </label>
+      <input type="number" id ="x"><br>
+      <label>Second Value: </label>
+      <input type="number" id="y"><br>
+      <button type="button" onclick="calculate()">Submit</button>
+      <p id="multiplication"></p>
+      <p id = "exponential"></p>
+    </form>
+
+    <form>
+      <h3>Checking Precision</h3>
+      <p>Please click the button the check the precision of 2.2365</p>
+      <!-- <label> Please enter an decimal number of your choice:</label><br> -->
+      <!-- <input type="number" step="any" id="decimal"> -->
+      <button type="button" onclick="precision()">Check</button>
+      <p id="precision"></p>
+    </form>
+  </div>
+
+  <div style="margin-left: 30px;">
+    <h3>Checking Array Length</h3>
+    <p>["Red","Blue","Green","Purple","Black","Gray","Pink","Orange","Brown"]</p>
+    <p>Click the count button to check total type of color in this array</p>
+    <button type="button" onclick="count()" >Count</button>
+    <p id="count"></p>
+
+    <p>Click the remove button to remove brown from the original array and show it below</p>
+    <button type="button" onclick="removeLast()" >Remove</button>
+    <p id="remove"></p>
+
+    <p>Click the remove button to remove red from the original array and show it below</p>
+    <button type="button" onclick="removeFirst()" >Remove</button>
+    <p id="remove2"></p>
+
+    <p>Click the add button to add yellow to the array and show it below</p>
+    <button type="button" onclick="add()" >Add</button>
+    <p id="add"></p>
+
+    <p>Click the merges button to merge to top array with the new one</p>
+    <p>["Aquamarine", "Amber", "Azure", "Beige"]</p>
+    <button type="button" onclick="concat()">Merges</button>
+    <p id="merges"></p>
+  </div>
+
+  
+
+
+  <script src="myscripts.js"></script>
+</body>
+
+</html>
